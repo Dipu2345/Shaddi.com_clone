@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+ 
+}
+.main{
+   
+    
+}
+.header{
+    width: 100%;
+    height: 650px;
+    background-color: red;
+    background-image: url(./images/home-banner-ri.webp);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+}
+.navbar img{
+    margin-left: 50px;
+    margin-top:40px ;
+}
+.nav{
+    height: 40px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: inline-block;
+    
+}
+.nav ul li{
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+   
+    padding: 10px 20px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ul li:hover{
+    background-color: red;
+    color: green;
+    box-shadow: 1px 1px 4px 1px black;
+    cursor: pointer;
+}
+.nav ul li:hover a{
+    color:green;
+}
+.T{
+    color: white;
+    text-decoration: none;
+}
+/* .T:hover{
+    color: green;
+} */
+.header pre{
+    margin-left: 10px;
+    padding-top: 270px;
+    color: blue;
+    position: absolute;
+    font-size: larger;
+    color: white;
+    font-size: 40px;
+    text-justify: inter-ideograph;
+    animation: color 1s infinite ease-in;
+    /* text-shadow: 5px 5px 10px red; */
+}
+@keyframes color{
+    0%{
+      color: white;
+    }
+    10%{
+        text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.336);
+    }
+    20%{
+        text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.553);
+    }
+    40%{
+        text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.806);
+    }
+    50%{
+        text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.982)a(255, 0, 0, 0.9);
+    }
+    60%{
+        text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.806);
+    }
+    70%{
+        text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.553); 
+    }
+    90%{
+        text-shadow: 2px 3px 10px rgba(255, 0, 0, 0.336);
+    }
+    100%{
+        color: white;
+    }
+}
+.check_mrg{
+    width: 80%;
+    height: 115px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 130px;
+    box-shadow: 2px 2px 30px 10px black;
+    
+}
+.first_form{
+    width:150px;
+    padding: 10px;
+}
+.o{
+    color: white;
+    margin: 0px 10px;
+}
+
+.one{
+    float: left;
+    margin-left: 20px;
+    
+}
+.one label{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.one button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.one button a{
+    color: white;
+    text-decoration: none;
+}
+.one button:hover{
+    background-color: red;
+    box-shadow: 1px 1px 4px 1px black;
+    cursor: pointer;
+}
+.one button:hover a{
+    color: green;
+}
+
+/* second div work started 11 09 23 _12:00 am */
+.find_someone{
+    padding-top: 40px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: rgb(234, 234, 231);
+}
+.second{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(234, 234, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.open1{
+width: 300px;
+height: 350px;
+/* background-color: aqua; */
+margin: 0 20px;
+
+
+
+
+}
+.open1 i{
+    /* text-align: center;
+    margin-left: 36%;
+    padding-top: 20px; */
+}
+.signup_second{
+    width: 100%;
+    height: 40%;
+    
+    border-radius: 300px;
+    /* position: absolute;
+    left: 17%; */
+    padding: 20px;
+
+}
+.second_logo{
+    border:2px solid  rgba(213, 20, 20, 0.881);
+    padding: 20px;
+    border-radius: 2300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.second_logo:hover{
+    background-color: rgba(213, 20, 20, 0.881);
+    color: green;
+    box-shadow: 1px 1px 10px 4px black;
+    cursor: pointer;
+}
+.signup_text{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.signup{
+    font-size: 30px;
+    font-weight: bolder;
+    color: green;
+}
+/* .signup:hover{
+    background-color: rgb(72, 51, 51);
+    color: green;
+} */
+.find{
+    /* width: 100%; */
+}
+
+/* testimonial card startef */
+.testimonial{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.text_card{
+    width: 280px;
+    height: 400px;
+    box-shadow: 1px 1px 10px 1px black;
+    margin-left: 40px;
+    transition: 0.3s;
+}
+.text_card:hover{
+    box-shadow: 1px 2px 20px 1px rgb(91, 30, 30);
+    cursor: pointer;
+}
+.test_text{
+    text-align: center;
+}
+.test_text h3{
+    padding-top: 40px;
+    font-size: 26px;
+}
+.test_text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* going to happen */
+.happen{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 0, 0, 0.694);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+.happen button{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 20px;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.694);
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.happen button:hover{
+    color: green;
+    background-color: white;
+    box-shadow: 0.5px 0.3px 4px  black;
+    cursor: pointer;
+}
+.down_footer{
+    padding-top: 40px;
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* footer */
+.sub_footer{
+    transition: 0.3s;
+    width: 350px;
+    height: 260px;
+    /* background-color: red; */
+   
+}
+.fot li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.fot li a:hover{
+    text-decoration: underline;
+}
+.fot li{
+    transition: 0.3s;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3px;
+    padding: 8px 0px;
+    text-decoration: none;
+    
+}
+pre{
+    display: inline-block;
+}
+.fot_text{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.fot2{
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center
+}
+.fot2 a{
+    transition: 0.3s;
+    color: red;
+    text-decoration: none;
+}
+.fot2 a:hover{
+    text-decoration: underline;
+}
+/* explanation learn more started */
+.expln{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: -20px;
+    font-family: EduTASBeginner;
+   
+    /* background-color: aqua; */
+  
+}
+
+/* down css started */
+.down{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 40px;
+background-color: rgb(230, 224, 232);
+}
+
+pre{
+    margin:  5px;
+    color: black;
+}
+.down1{
+    display: flex;
+    justify-content: center;
+}
+.down1 ul li{
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+}
+.down1 ul li a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: red;
+}
+
+/* up footer  */
+.upfooter{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(42, 67, 165); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.inupfot{
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+    padding: 40px;
+    transition: 0.3s;
+}
+.trust{
+    transition: 0.3s;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(141, 32, 32);
+    position: absolute;
+    bottom: -2302.60px;
+    left: 37%;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+    margin-top: 50%;
+}
+.trust p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/* .l_hover{
+    color: green;
+}
+.fa-regular:hover{
+    color: green !important;
+    
+}
+.fa-solid:hover{
+    color: green !important;
+} */
+.bo:hover i{
+    transition: 0.3s;
+    color: green !important;
+  
+}
+.inupfot ul li{
+    display: inline-block;
+    margin: 0px 20px;
+
+}
+.bo{
+    transition: 0.3s;
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 300px;
+    border: 1px solid gray;
+}
+.bo:hover{
+    border: 1px solid red;
+}
+/* footer code atarted */
+footer{
+width: 100%;
+height: 300px;
+/* background-color: rgb(191, 159, 222); */
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.foot{
+    width: 300px;
+    height:auto;
+    margin-right: 20px;
+}
+.foot ul li{
+    margin: 10px 0px;
+    text-align: center;
+    list-style: none;
+    
+}
+.foot ul li a{
+    list-style: none;
+    color: rgba(65, 63, 63, 0.678);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.foot ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.copyright{
+    font-family:Kenia;
+    position: absolute;
+    top: 640%;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.copyright p{
+    font-family: Kenia;
+}
+/* respinsive */
+@media screen and (max-width: 600px ){
+    .main{
+        width: 231%;
+    }
+    .header{
+        width: 174%;
+        height: 2208px;
+        /* background-color: rgb(11, 8, 8); */
+        /* background-image: url(./images/home-banner-ri.webp); */
+        background-repeat: no-repeat;
+        background-position: -2150px;
+        background-size: cover;
+    }
+    .nav{
+        margin-top: -38px;
+
+    }
+    .navbar img {
+        margin-left: 58px;
+        margin-top: 51px;
+        width: 22%;
+    }
+    .nav ul li{
+        margin-top: -81px;
+        font-size: 54px;
+        padding: 40px;
+    }
+    .nav ul li:hover{
+        background-color: red;
+        color: green;
+    }
+    .tma{
+        margin-left: 10px;
+    }
+    .one{
+        padding: 11px 20px;
+    }
+    .one label{
+        font-size: 49px;
+    }
+    .one button{
+        margin-top: 30px;
+        padding: 38px 425px;
+        margin-left: 127px;
+        font-size: 40px;
+    }
+    .one button a{
+        font-size: 40px;
+        display: inline-block;
+        width: 214px;
+    }
+    .first_form{
+        width: 400px;
+        padding: 30px;
+        font-size: 43px;
+    }
+    .first_form::placeholder{
+        font-size: 40px;
+    }
+
+    .header pre {
+        font-size: 67px;
+        text-align: center;
+        padding-left: 115px;
+        padding-top: 340px;
+    }
+    .check_mrg {
+        margin-top: 970px;
+        width: 340%;
+        /* background-color: red; */
+        height: 660px;
+        position: absolute;
+        top: 480px;
+    }
+    .find{
+        width: 100%;
+        height: ;
+        background-color: #eaeae7;
+    }
+    .find_someone{
+        width: 173%;
+    }
+    .second{
+        width: 174%;
+    }
+    .testimonial{
+        width: 174%;
+    }
+    .text_card{
+        display: none;
+    }
+    .resp{
+        display: block;
+        width: 235%;
+        height:137%;
+        position: absolute;
+        top: 309%;
+    }
+    .resp img{
+        height: 58%;
+        font-size: 40px;
+    }
+    .test_text{
+        font-size: 40px;
+    }
+    .test_text h3{
+        font-size:  60px;
+    }
+
+
+
+}
